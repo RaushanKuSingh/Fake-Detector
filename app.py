@@ -5,7 +5,7 @@ import os
 import requests
 
 # --- Page Config ---
-st.set_page_config(page_title="Fake Detector Pro", layout="wide")
+st.set_page_config(page_title="Deepfake Detector", layout="wide")
 
 # --- Simple UI Style ---
 st.markdown("""
