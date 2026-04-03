@@ -5,7 +5,7 @@ import os
 import requests
 
 # --- Page Config ---
-st.set_page_config(page_title="Deepfake Detector", layout="wide")
+st.set_page_config(page_title="DEEPFAKE DETECTOR", layout="wide")
 
 # --- Simple UI Style ---
 st.markdown("""
@@ -16,7 +16,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='hero-title'>🛡️ FAKE DETECTOR PRO</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='hero-title'>🛡️ DEEPFAKE DETECTOR</h1>", unsafe_allow_html=True)
 
 # --- Logic ---
 uploaded_file = st.file_uploader("Upload Image to Scan", type=["jpg", "png", "jpeg"])
